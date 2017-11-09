@@ -30,3 +30,4 @@ Thumbs.db
 log/
 target/
 .idea/
+/.idea/vcs.xml
