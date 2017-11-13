@@ -25,6 +25,7 @@ public class ProjectStatus {
   private List<String> assaysMzTabIndexedProtein;
   private List<String> assaysMgfIndexed;
   private boolean generatedMgfMztabOnFtp;
+  private String trackHubEnsemblReleaseVersion;
 
   /**
    * Sets new projectAccession.
@@ -258,5 +259,23 @@ public class ProjectStatus {
    */
   public List<Date> getPoGoCreationDates() {
     return poGoCreationDates;
+  }
+
+  /**
+   * Sets new trackhubEnsemblReleaseVersion.
+   *
+   * @param trackhubEnsemblReleaseVersion New value of trackhubEnsemblReleaseVersion.
+   */
+  public void setTrackhubEnsemblReleaseVersion(String trackhubEnsemblReleaseVersion) {
+    this.trackhubEnsemblReleaseVersion = trackhubEnsemblReleaseVersion;
+  }
+
+  /**
+   * Gets trackhubEnsemblReleaseVersion.
+   *
+   * @return Value of trackhubEnsemblReleaseVersion.
+   */
+  public String getTrackhubEnsemblReleaseVersion() {
+    return trackhubEnsemblReleaseVersion;
   }
 }
