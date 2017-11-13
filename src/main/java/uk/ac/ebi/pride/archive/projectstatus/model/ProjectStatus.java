@@ -264,18 +264,18 @@ public class ProjectStatus {
   /**
    * Sets new trackhubEnsemblReleaseVersion.
    *
-   * @param trackhubEnsemblReleaseVersion New value of trackhubEnsemblReleaseVersion.
+   * @param trackHubEnsemblReleaseVersion New value of trackhubEnsemblReleaseVersion.
    */
-  public void setTrackhubEnsemblReleaseVersion(String trackhubEnsemblReleaseVersion) {
-    this.trackhubEnsemblReleaseVersion = trackhubEnsemblReleaseVersion;
+  public void setTrackHubEnsemblReleaseVersion(String trackHubEnsemblReleaseVersion) {
+    this.trackHubEnsemblReleaseVersion = trackHubEnsemblReleaseVersion;
   }
 
   /**
-   * Gets trackhubEnsemblReleaseVersion.
+   * Gets trackHubEnsemblReleaseVersion.
    *
-   * @return Value of trackhubEnsemblReleaseVersion.
+   * @return Value of trackHubEnsemblReleaseVersion.
    */
-  public String getTrackhubEnsemblReleaseVersion() {
-    return trackhubEnsemblReleaseVersion;
+  public String getTrackHubEnsemblReleaseVersion() {
+    return trackHubEnsemblReleaseVersion;
   }
 }
