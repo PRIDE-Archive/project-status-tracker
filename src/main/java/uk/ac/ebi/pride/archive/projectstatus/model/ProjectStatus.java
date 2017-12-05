@@ -27,6 +27,9 @@ public class ProjectStatus {
   private boolean generatedMgfMztabOnFtp;
   private String trackHubEnsemblReleaseVersion;
 
+  
+  // todo subclass / interface for status types?
+
   /**
    * Sets new projectAccession.
    *
